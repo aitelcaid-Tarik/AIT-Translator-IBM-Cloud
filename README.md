@@ -10,7 +10,7 @@ We test our application using JUnit, Mockito and Espresso at three different lev
 * UI Tests
 
 
- <img src="Screenshot/1.png" width="100" height="100"/>
+ <img src="Screenshot/1.png" width="100%" height="100%"/>
 
  Our application is composed of the following UI components:
 
