@@ -2,24 +2,28 @@
 
 ## Abstract
 The aim of this project is to develop an Android application that uses IBM’s Watson Language Translator service to translate text from a source to a target language.<br>
+
 Translation is available among Arabic, Chinese, English, French, Portuguese, German, and Spanish.
 The application uses the Material design system for the user interface design.<br>
+
 We test our application using JUnit, Mockito and Espresso at three different levels:<br>
 * Local Unit Tests
 * Instrumented Tests
 * UI Tests
 
 <p align="center">
- <img src="Screenshot/1.png" width="30%" height="30%"/>
+ <img src="Screenshot/1.png" width="32%" height="30%"/>
 </p>
- Our application is composed of the following UI components:
+ Our application is composed of the following UI components:<br>
+ <pre>
 
+</pre>
 <p align="center">
- <img src="Screenshot/2.png" width="30%" height="30%"/> 
+ <img src="Screenshot/2.png" width="32%" height="30%"/> 
 </p>
 
 **UI Component 1:** TextInput where the user submits the text to be translated. <br>
-**UI Component 2 & 4 :** Spinner that displays a list of available source and target languages respectively. <br>
+**UI Component 2 & 4:** Spinner that displays a list of available source and target languages respectively. <br>
 **UI Component 3:** Button that allows user to switch the source language with the target language.<br>
 **UI Component 5:** Button that starts the service which translates the textUI. <br>
 **UI Component 6:** TextView to show the final result. <br>
