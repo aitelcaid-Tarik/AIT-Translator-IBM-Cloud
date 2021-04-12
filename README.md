@@ -9,9 +9,9 @@ We test our application using JUnit, Mockito and Espresso at three different lev
 * Instrumented Tests
 * UI Tests
 
-
- <img src="Screenshot/1.png" width="100%" height="100%"/>
-
+<div style="text-align:center">
+ <img src="Screenshot/1.png" width="50%" height="50%"/>
+</div>
  Our application is composed of the following UI components:
 
  <img src="Screenshot/2.png"/> 
