@@ -9,12 +9,14 @@ We test our application using JUnit, Mockito and Espresso at three different lev
 * Instrumented Tests
 * UI Tests
 
-<div style="text-align:center">
- <img src="Screenshot/1.png" width="50%" height="50%"/>
-</div>
+<p align="center">
+ <img src="Screenshot/1.png" width="30%" height="30%"/>
+</p>
  Our application is composed of the following UI components:
 
- <img src="Screenshot/2.png"/> 
+<p align="center">
+ <img src="Screenshot/2.png" width="30%" height="30%"/> 
+</p>
 
 **UI Component 1:** TextInput where the user submits the text to be translated. <br>
 **UI Component 2 & 4 :** Spinner that displays a list of available source and target languages respectively. <br>
