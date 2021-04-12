@@ -11,13 +11,13 @@ We test our application using JUnit, Mockito and Espresso at three different lev
 * Instrumented Tests
 * UI Tests
 
+
 <p align="center">
  <img src="Screenshot/1.png" width="32%" height="30%"/>
 </p>
  Our application is composed of the following UI components:<br>
- <pre>
 
-</pre>
+
 <p align="center">
  <img src="Screenshot/2.png" width="32%" height="30%"/> 
 </p>
