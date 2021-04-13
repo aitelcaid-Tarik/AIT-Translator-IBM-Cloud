@@ -23,11 +23,11 @@ public class UnitTest {
 
         // Given a mocked Context injected into the object under test...
         when(mockContext.getString(R.string.api_key))
-                .thenReturn("HR2S1fqP8YQp0xo1Nx2363nKAm-L1dgj2ndkL_nopBl-");
+                .thenReturn("YOUR_API_KEY");
 
         // Given a mocked Context injected into the object under test...
         when(mockContext.getString(R.string.url))
-                .thenReturn("https://api.eu-gb.language-translator.watson.cloud.ibm.com/instances/13c5cea2-f786-4077-9daa-cbe165f2abec");
+                .thenReturn("YOUR_URL");
 
         assertEquals("Bonjour", new MainActivity().translate(mockContext,"Hello", "en", "fr"));
 
